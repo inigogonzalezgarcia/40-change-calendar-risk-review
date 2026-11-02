@@ -1,0 +1,4 @@
+name,kind,start,end,scope,approved_exceptions,reason
+October month-end close,freeze,2026-10-29 18:00,2026-11-04 07:00,Trading platform;Trading database;General ledger;Payments gateway,,Month-end close and regulatory reporting until working day 3
+Index rebalance,freeze,2026-11-13 12:00,2026-11-14 02:00,Trading platform;Market data distribution;Trading database,CHG0041207,Semi-annual index rebalance: high volumes at the close
+Year-end change freeze,freeze,2026-12-18 18:00,2027-01-04 07:00,global,,Year-end: emergency changes only
