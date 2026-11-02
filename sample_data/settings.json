@@ -1,0 +1,117 @@
+{
+  "organisation": "Fabrikam Bank",
+  "as_of": "2026-11-02 08:00",
+  "horizon_days": 14,
+  "cab_weekday": "tue",
+  "cab_time": "10:00",
+  "lead_time_days": {
+    "normal": {
+      "very high": 10,
+      "high": 10,
+      "moderate": 5,
+      "low": 3,
+      "not assessed": 5
+    },
+    "standard": {},
+    "emergency": {}
+  },
+  "plans_required": {
+    "normal": [
+      "backout",
+      "test",
+      "implementation"
+    ],
+    "emergency": [
+      "backout",
+      "implementation"
+    ],
+    "standard": []
+  },
+  "maintenance_windows": {
+    "1": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "start": "22:00",
+        "end": "06:00"
+      },
+      {
+        "days": [
+          "sat"
+        ],
+        "start": "06:00",
+        "end": "42:00"
+      }
+    ],
+    "2": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "start": "20:00",
+        "end": "06:00"
+      },
+      {
+        "days": [
+          "sat"
+        ],
+        "start": "06:00",
+        "end": "54:00"
+      }
+    ],
+    "3": []
+  },
+  "max_changes_per_team_night": 3,
+  "collision_max_tier": 2,
+  "freeze_allows_emergency": true,
+  "freeze_allows_standard": false,
+  "incident_window_hours": 24,
+  "suspected_max_priority": 2,
+  "pir_due_days": 5,
+  "pir_required_for": [
+    "unsuccessful",
+    "successful_issues",
+    "emergency",
+    "incident"
+  ],
+  "overrun_tolerance_minutes": 30,
+  "retro_approval_days": 2,
+  "success_target": 0.95,
+  "team_success_min": 0.8,
+  "team_min_changes": 5,
+  "emergency_share_max": 0.1,
+  "team_emergency_share_max": 0.2,
+  "standard_risky_match": "firmware|upgrade|migrat|replace|re-?platform",
+  "trend_months": 3,
+  "teams": [
+    "Network",
+    "Network Security",
+    "Windows Server",
+    "Unix & Linux",
+    "Database",
+    "Storage & Backup",
+    "Trading Platform Support",
+    "Middleware & Integration",
+    "Workplace (EUC)"
+  ],
+  "owners": {
+    "readiness": "Change manager",
+    "collisions": "Change manager",
+    "types": "Change manager",
+    "outcomes": "Change manager",
+    "teams": "Head of IT operations"
+  }
+}

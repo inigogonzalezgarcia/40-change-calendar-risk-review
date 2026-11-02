@@ -1,0 +1,38 @@
+ci,ci_class,service,service_tier,service_owner,service_depends_on
+fbk-dc01,cmdb_ci_win_server,Active Directory and DNS,1 - most critical,Windows Server,Core network
+fbk-dc02,cmdb_ci_win_server,Active Directory and DNS,1 - most critical,Windows Server,Core network
+fbk-bkp01,cmdb_ci_server,Backup,2 - somewhat critical,Storage & Backup,SAN storage
+fbk-bkp02,cmdb_ci_server,Backup,2 - somewhat critical,Storage & Backup,SAN storage
+fbk-portal-web01,cmdb_ci_linux_server,Client portal,2 - somewhat critical,Middleware & Integration,Data centre firewalls;Active Directory and DNS
+fbk-portal-web02,cmdb_ci_linux_server,Client portal,2 - somewhat critical,Middleware & Integration,Data centre firewalls;Active Directory and DNS
+fbk-cs-core01,cmdb_ci_ip_switch,Core network,1 - most critical,Network,
+fbk-cs-core02,cmdb_ci_ip_switch,Core network,1 - most critical,Network,
+fbk-fw-dc01,cmdb_ci_ip_firewall,Data centre firewalls,1 - most critical,Network Security,Core network
+fbk-fw-dc02,cmdb_ci_ip_firewall,Data centre firewalls,1 - most critical,Network Security,Core network
+fbk-exch-hyb01,cmdb_ci_win_server,Email and collaboration,2 - somewhat critical,Workplace (EUC),Active Directory and DNS
+fbk-mtr-pool,cmdb_ci_appl,Email and collaboration,2 - somewhat critical,Workplace (EUC),Active Directory and DNS
+fbk-gl-app01,cmdb_ci_win_server,General ledger,2 - somewhat critical,Middleware & Integration,SAN storage;Active Directory and DNS
+fbk-gl-app02,cmdb_ci_win_server,General ledger,2 - somewhat critical,Middleware & Integration,SAN storage;Active Directory and DNS
+fbk-gl-db01,cmdb_ci_db_mssql_instance,General ledger,2 - somewhat critical,Middleware & Integration,SAN storage;Active Directory and DNS
+fbk-md-dist01,cmdb_ci_linux_server,Market data distribution,1 - most critical,Trading Platform Support,Core network;Data centre firewalls
+fbk-md-dist02,cmdb_ci_linux_server,Market data distribution,1 - most critical,Trading Platform Support,Core network;Data centre firewalls
+fbk-md-lb01,cmdb_ci_lb,Market data distribution,1 - most critical,Trading Platform Support,Core network;Data centre firewalls
+fbk-mon01,cmdb_ci_linux_server,Monitoring,2 - somewhat critical,Unix & Linux,Core network
+fbk-pay-gw01,cmdb_ci_linux_server,Payments gateway,1 - most critical,Middleware & Integration,Data centre firewalls;SAN storage;Active Directory and DNS
+fbk-pay-gw02,cmdb_ci_linux_server,Payments gateway,1 - most critical,Middleware & Integration,Data centre firewalls;SAN storage;Active Directory and DNS
+fbk-pay-mq01,cmdb_ci_linux_server,Payments gateway,1 - most critical,Middleware & Integration,Data centre firewalls;SAN storage;Active Directory and DNS
+fbk-prn01,cmdb_ci_win_server,Print and scan,3 - less critical,Workplace (EUC),
+fbk-risk-app01,cmdb_ci_linux_server,Risk reporting,2 - somewhat critical,Unix & Linux,Trading database
+fbk-risk-db01,cmdb_ci_db_ora_instance,Risk reporting,2 - somewhat critical,Unix & Linux,Trading database
+fbk-san01,cmdb_ci_storage_device,SAN storage,1 - most critical,Storage & Backup,Core network
+fbk-trd-db01,cmdb_ci_db_ora_instance,Trading database,1 - most critical,Database,SAN storage;Core network
+fbk-trd-db02,cmdb_ci_db_ora_instance,Trading database,1 - most critical,Database,SAN storage;Core network
+fbk-trd-app01,cmdb_ci_linux_server,Trading platform,1 - most critical,Trading Platform Support,Trading database;Market data distribution;Data centre firewalls;Active Directory and DNS
+fbk-trd-app02,cmdb_ci_linux_server,Trading platform,1 - most critical,Trading Platform Support,Trading database;Market data distribution;Data centre firewalls;Active Directory and DNS
+fbk-trd-fix01,cmdb_ci_linux_server,Trading platform,1 - most critical,Trading Platform Support,Trading database;Market data distribution;Data centre firewalls;Active Directory and DNS
+fbk-trd-oms,cmdb_ci_appl,Trading platform,1 - most critical,Trading Platform Support,Trading database;Market data distribution;Data centre firewalls;Active Directory and DNS
+fbk-as-fl301,cmdb_ci_ip_switch,Workplace devices,3 - less critical,Workplace (EUC),Active Directory and DNS
+fbk-fs01,cmdb_ci_win_server,Workplace devices,3 - less critical,Workplace (EUC),Active Directory and DNS
+fbk-fs02,cmdb_ci_win_server,Workplace devices,3 - less critical,Workplace (EUC),Active Directory and DNS
+fbk-intune,cmdb_ci_appl,Workplace devices,3 - less critical,Workplace (EUC),Active Directory and DNS
+fbk-mecm01,cmdb_ci_win_server,Workplace devices,3 - less critical,Workplace (EUC),Active Directory and DNS
